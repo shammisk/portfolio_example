@@ -1,0 +1,77 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 100px 100px 100px 250px;
+  background-color: #f7f7f7; /* Added a background color for better visibility */
+}
+
+#backHome {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgb(74, 74, 68);
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  z-index: 1000; /* Ensure it appears on top of other elements */
+}
+
+#title {
+  font-size: 20px;
+  margin-top: 20px; /* Add some spacing between titles */
+  color: rgb(70, 70, 66); /* Changed title text color */
+}
+
+.ks {
+  background-color: #fff; /* Changed background color */
+  padding: 20px; /* Increased padding for better spacing */
+  margin-top: 20px; /* Add some spacing between sections */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ks img {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+  color: #444; /* Adjusted list item text color */
+  margin-bottom: 10px; /* Added margin for better spacing between list items */
+}
+
+ul #link {
+  padding-bottom: 20px;
+}
+
+ul li p {
+  color: rgb(74, 74, 68);
+}
+
+ul #link {
+  list-style-type: none;
+}
+
+ul #link a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgb(74, 74, 68);
+  color: white;
+  margin-right: 10px;
+}
+
+ul li span {
+  color: rgb(70, 70, 66);
+}
