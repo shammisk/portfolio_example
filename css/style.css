@@ -42,10 +42,10 @@ header {
   transition: all 0.5s ease;
 }
 .navbar ul li a:hover {
-  color: rgb(3, 196, 250);
+  color: rgb(70, 9, 144);
 }
 .navbar a:active {
-  color: rgb(3, 196, 250);
+  color: rgb(70, 9, 144);
 }
 
 /* Home section*/
@@ -330,7 +330,7 @@ header {
 }
 
 #resume .courses .details .content p a {
-  color: rgb(59, 177, 237);
+  color: rgb(43, 60, 206);
 }
 
 #resume .edu h2,
@@ -372,7 +372,7 @@ header {
 }
 
 #portfolio .filter-button:hover {
-  color: rgb(213, 202, 42);
+  color: rgb(70, 9, 144);
 }
 
 #portfolio .filter-button.active {
@@ -478,12 +478,12 @@ header {
   margin-left: 5px;
   position: relative;
   justify-content: center;
-  color: rgb(3, 196, 250);
+  color: rgb(70, 9, 144);
   top: 10px;
   left: 650px;
   margin-bottom: 30px;
 }
 .social a:hover {
   transform: translateY(-10px);
-  color: rgb(205, 3, 250);
+  color: rgb(145, 229, 103);
 }
