@@ -152,14 +152,14 @@ header {
 
 /*About Section*/
 #about {
-  display: flex;
+  
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 0px;
   background-color: rgb(180, 179, 179);
 }
-#pic {
+#pic {display: flex;
   display: flex;
 }
 #pic img {
@@ -237,49 +237,17 @@ header {
 
 /*resume section*/
 #resume {
-  padding: 5px;
- 
-  
-}
-.navbar1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: none;
-  position: sticky;
-  top: 0;
-}
-.navbar1 ul {
-  display: flex;
-  list-style: none;
-  padding: 0px;
-  margin-bottom: 20px;
-}
-.navbar1 a {
-  font-family: century;
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-.navbar1 ul li a {
-  text-decoration: none;
-  color: black;
-  padding: 8px 25px;
-  transition: all 0.5s ease;
-}
-.navbar1 ul li a:hover {
-  color: rgb(155, 3, 135);
-}
-.navbar1 a:active {
-  color: rgb(155, 3, 135);
+  padding: 10px;
+   
 }
 
-/* education section */
-#education {
-  display: flex;
-  flex-direction: row;
- 
- 
+#resume .headings{
+  padding:10px
 }
+
+
+/* education section */
+
 
 #resume .edu {
   width: 100%;
