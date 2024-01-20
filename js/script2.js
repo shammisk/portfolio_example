@@ -25,3 +25,7 @@ function scrollToSubsection(subsectionId) {
   document.getElementById('vol').addEventListener('click', () => {
     scrollToSubsection('vol');
   });
+
+  document.getElementById('baj').addEventListener('click', () => {
+    scrollToSubsection('baj');
+  });

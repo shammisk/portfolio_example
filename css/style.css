@@ -238,6 +238,7 @@ header {
 /*resume section*/
 #resume {
   padding: 5px;
+ 
   
 }
 .navbar1 {
@@ -276,30 +277,41 @@ header {
 #education {
   display: flex;
   flex-direction: row;
-  padding-bottom: 50px;
+ 
+ 
 }
 
 #resume .edu {
   width: 100%;
+ 
   background-color: rgb(148, 165, 187);
 }
 #resume .courses {
   width: 100%;
+  
   background-color: rgb(145, 139, 175);
 }
 #resume .exp {
   width: 100%;
+  
   background-color: rgb(148, 165, 187);
 }
 #resume .vol {
   width: 100%;
+ 
   background-color: rgb(145, 139, 175);
+}
+#resume .baj {
+  width: 100%;
+  
+  background-color: rgb(148, 165, 187);
 }
 
 #resume .edu .details,
 #resume .courses .details,
 #resume .exp .details,
-#resume .vol .details {
+#resume .vol .details,
+#resume .baj .details {
   display: flex;
   flex-direction: row;
   padding-top: 20px;
@@ -308,7 +320,8 @@ header {
 #resume .edu .details .content,
 #resume .courses .details .content,
 #resume .exp .details .content,
-#resume .vol .details .content {
+#resume .vol .details .content,
+#resume .baj .details .content {
   margin-left: 30px;
   padding-bottom: 20px;
 }
@@ -316,7 +329,8 @@ header {
 #resume .edu .details .image img,
 #resume .courses .details .image img,
 #resume .exp .details .image img,
-#resume .vol .details .image img {
+#resume .vol .details .image img, 
+#resume .baj .details .image img {
   width: 60px;
   height: 60px;
   margin-left: 250px;
@@ -325,7 +339,8 @@ header {
 #resume .edu .details .image #curve,
 #resume .courses .details .image #curve,
 #resume .exp .details .image #curve,
-#resume .vol .details .image #curve {
+#resume .vol .details .image #curve, 
+#resume .baj .details .image #curve {
   border-radius: 50%;
 }
 
@@ -336,7 +351,8 @@ header {
 #resume .edu h2,
 #resume .courses h2,
 #resume .exp h2,
-#resume .vol h2 {
+#resume .vol h2,
+#resume .baj h2 {
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-color: rgb(155, 3, 135);

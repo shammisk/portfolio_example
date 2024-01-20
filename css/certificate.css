@@ -9,9 +9,10 @@
   }
   
   #uom-full-stack,
-  #great-learning,
+  #great-learning1,#great-learning2,#great-learning3,#great-learning4,#great-learning5,#great-learning6,
   #coursera,
-  #future-learning
+  #coursera1,#coursera2,#coursera3,#coursera4,
+  #future-learning1, #future-learning2, #future-learning3, #future-learning4
    {
     padding-top: 20px;
     display: flex;
@@ -23,9 +24,9 @@
   
   
   #uom-full-stack,
-  #great-learning,
-  #courserar,
-  #future-learning{
+  #great-learning1,#great-learning2,#great-learning3,#great-learning4,#great-learning5,#great-learning6,
+  #coursera,#coursera1,#coursera2,#coursera3,#coursera4,
+  #future-learning1, #future-learning2, #future-learning3, #future-learning4{
     padding-bottom: 10%;
   }
  
@@ -38,10 +39,10 @@ img {
     margin-bottom: 20px;
   }
 
-#future-learning .img  {
-    width: 500px;
+/*#future-learning .img  {
+    width: 200px;
     height: 700px;
-  }
+  }*/
   
   
   /* add media */
