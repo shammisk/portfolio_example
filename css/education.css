@@ -44,9 +44,13 @@
       margin-left: 20px;
       margin-bottom: 20px;
   }
+
+  h3{
+    color:rgba(205, 16, 85, 0.842);
+  }
   
   ul li {
-    color: #0a0355; /* Adjusted list item text color */
+    color: rgb(6, 13, 148); /* Adjusted list item text color */
     margin-bottom: 10px; /* Added margin for better spacing between list items */
   }
   
@@ -55,23 +59,27 @@
   }
   
   ul li p {
-    color: #0a0355;
+    color: rgb(70, 70, 66);
   }
   
   ul #link {
     list-style-type: none;
+  }
+
+  li h3{
+    color: rgb(6, 13, 148);
   }
   
   ul #link a {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 20px;
-    background-color: rgb(74, 74, 68);
+    background-color: rgb(105, 127, 222);
     color: white;
     margin-right: 10px;
   }
   
   ul li span {
-    color: rgb(70, 70, 66);
+    color: rgb(48, 114, 212);
   }
   
