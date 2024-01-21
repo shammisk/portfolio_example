@@ -8,63 +8,70 @@
     border-radius: 50%;
   }
   
-  #esoft,
-  #great-learning,
-  #coursera,
-  #future-learning
-   {
-    padding-top: 20px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    
+  body,
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+    padding: 0;
   }
-  
-  
-  #esoft,
-  #great-learning,
-  #courserar,
-  #future-learning{
-    padding-bottom: 10%;
-  }
- 
-  
-  
-img {
-    width: 700px;
-    height: 500px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 100px 100px 100px 250px;
+    background-color: #f7f7f7; /* Added a background color for better visibility */
   }
 
-#future-learning .img  {
-    width: 500px;
-    height: 700px;
+  #title {
+    font-size: 20px;
+    margin-top: 20px; /* Add some spacing between titles */
+    color: rgb(70, 70, 66); /* Changed title text color */
   }
   
-  
-  /* add media */
-  /* Media query for tablets and larger phones */
-  @media screen and (max-width: 1024px) {
-    
-    
+  .ks {
+    background-color: #fff; /* Changed background color */
+    padding: 20px; /* Increased padding for better spacing */
+    margin-top: 20px; /* Add some spacing between sections */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
   }
   
-  /* Media query for mobile devices */
-  @media screen and (max-width: 768px) {
-    h1{
-      font-size: 15px;
-    }
-    h3{
-      font-size: 10px;
-    }
-    img {
-      width: 400px;
+  .ks img {
+      width: 500px;
       height: auto;
-    }
-    
+      margin-left: 20px;
+      margin-bottom: 20px;
   }
   
+  ul li {
+    color: #444; /* Adjusted list item text color */
+    margin-bottom: 10px; /* Added margin for better spacing between list items */
+  }
   
+  ul #link {
+    padding-bottom: 20px;
+  }
+  
+  ul li p {
+    color: rgb(74, 74, 68);
+  }
+  
+  ul #link {
+    list-style-type: none;
+  }
+  
+  ul #link a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(74, 74, 68);
+    color: white;
+    margin-right: 10px;
+  }
+  
+  ul li span {
+    color: rgb(70, 70, 66);
+  }
   
