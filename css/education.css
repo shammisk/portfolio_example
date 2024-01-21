@@ -46,7 +46,7 @@
   }
   
   ul li {
-    color: #444; /* Adjusted list item text color */
+    color: #0a0355; /* Adjusted list item text color */
     margin-bottom: 10px; /* Added margin for better spacing between list items */
   }
   
@@ -55,7 +55,7 @@
   }
   
   ul li p {
-    color: rgb(74, 74, 68);
+    color: #0a0355;
   }
   
   ul #link {
