@@ -58,45 +58,35 @@ header {
   align-items: center;
   color: #fff;
 }
-/*#home::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: url('img/b.jpg') no-repeat center center/cover;
-    background-size: 600px auto;
-    height: 900px;
-    width: 100%;
-    z-index: -1;
-    opacity: .8 ;
-}*/
+
 .main {
   display: flex;
   flex-direction: column;
-  /*border: 1px solid white;*/
   align-items: center;
   position: absolute;
   top: 40%;
   left: 10%;
 }
+
 .headings {
   font-family: century;
   font-size: 3rem;
   text-align: center;
   margin: 40px 0px;
 }
+
 .heading span {
   color: rgb(3, 196, 250);
 }
+
 .home-img {
   display: flex;
-
   width: 30%;
   left: 20%;
   justify-content: center;
-
   position: relative;
 }
+
 .home-img::before {
   content: "";
   position: absolute;
@@ -112,11 +102,13 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .home-img img {
   width: 400px;
   height: 400px;
   object-fit: contain;
 }
+
 .btn {
   padding: 10px 35px;
   background-color: transparent;
@@ -126,6 +118,7 @@ header {
   transition: 0.6s ease;
   flex-direction: row;
 }
+
 .btn:hover {
   cursor: pointer;
   background-color: white;
@@ -142,6 +135,7 @@ header {
   outline: none;
   transition: 0.6s ease;
 }
+
 .btn2:hover {
   cursor: pointer;
   background-color: white;
@@ -150,22 +144,25 @@ header {
   font-weight: bold;
 }
 
+
 /*About Section*/
 #about {
-  
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 0px;
   background-color: rgb(180, 179, 179);
 }
-#pic {display: flex;
+
+#pic {
   display: flex;
 }
+
 #pic img {
   width: 575px;
   height: 400px;
 }
+
 #intro {
   display: flex;
   flex-direction: column;
@@ -173,20 +170,19 @@ header {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
 }
+
 #intro h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   color: white;
 }
+
 #intro h3 {
   color: white;
-}
-#intro {
-  color: black;
-  font-size: 18px;
-  padding: 20px;
-  font-weight: bold;
 }
 
 #con {
@@ -211,6 +207,7 @@ header {
   left: 10px;
   margin-bottom: 30px;
 }
+
 #con a:hover {
   transform: translateY(-10px);
   color: rgb(87, 155, 35);
@@ -226,6 +223,7 @@ header {
   transition: 0.6s ease;
   margin-left: 200px;
 }
+
 #btn1:hover {
   cursor: pointer;
   background-color: rgb(145, 229, 103);
@@ -234,6 +232,7 @@ header {
     0 0 15px rgb(145, 229, 103);
   font-weight: bold;
 }
+
 
 /*resume section*/
 #resume {
