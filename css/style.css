@@ -431,6 +431,86 @@ header {
   font-size: 20px;
 }
 
+/*Other*/
+#other {
+  padding: 10px;
+   
+}
+
+#other .headings{
+  padding:10px
+}
+
+#other .ski {
+  width: 100%;
+ 
+  background-color: rgb(107, 205, 166);
+}
+
+#other .ski .details
+ {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+#other .in {
+  width: 100%;
+ 
+  background-color: rgb(58, 123, 92);
+}
+
+#other .in .details
+ {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+#other dl
+ {
+  margin-left: 100px;
+  padding-bottom: 20px;
+  font-size: 25px; 
+  font-weight: bold;
+  color: #5e0842;
+}
+
+#other dd
+ {
+  margin-left: 100px;
+  padding-bottom: 20px;
+  font-size: 25px; 
+  font-style: oblique;
+}
+
+#other li
+ {
+  margin-left: 100px;
+  padding-bottom: 20px;
+  font-size: 25px; }
+#other .in h2
+ {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: rgb(155, 3, 135);
+  font-size: 35px;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+
+
+#other .ski h2
+ {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: rgb(155, 3, 135);
+  font-size: 35px;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+
+
 /*contact section*/
 #contact {
   display: flex;
