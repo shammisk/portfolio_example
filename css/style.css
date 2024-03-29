@@ -246,7 +246,11 @@ header {
 
 
 /* education section */
-
+#resume .exp {
+  width: 100%;
+  
+  background-color: rgb(148, 165, 187);
+}
 
 #resume .edu {
   width: 100%;
@@ -258,21 +262,22 @@ header {
   
   background-color: rgb(145, 139, 175);
 }
-#resume .exp {
-  width: 100%;
-  
-  background-color: rgb(148, 165, 187);
-}
-#resume .vol {
-  width: 100%;
- 
-  background-color: rgb(145, 139, 175);
-}
 #resume .baj {
   width: 100%;
   
   background-color: rgb(148, 165, 187);
 }
+#resume .ex {
+  width: 100%;
+  background-color: rgb(145, 139, 175) ;
+  
+}
+#resume .vol {
+  width: 100%;
+  background-color: rgb(148, 165, 187);
+
+}
+
 
 #resume .edu .details,
 #resume .courses .details,
