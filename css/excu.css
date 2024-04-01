@@ -23,10 +23,20 @@
     background-color: #f7f7f7; /* Added a background color for better visibility */
   }
 
-  #title {
+  #title1 {
     font-size: 20px;
     margin-top: 20px; /* Add some spacing between titles */
-    color: rgb(70, 70, 66); /* Changed title text color */
+    color: rgb(255, 253, 254); /* Changed title text color */
+    background: linear-gradient(141deg, rgb(34, 2, 57) 11%, rgb(141, 94, 167) 48%, rgb(113, 20, 189) 83%);
+    font-weight: bold;
+    padding-left: 10px;
+  }
+
+  #title {
+    font-size: 20px;
+    margin-top: 20px;
+    color:rgb(74, 74, 68);
+    font-weight: bold;
   }
   
   .ks {
@@ -46,7 +56,8 @@
   }
 
   h3{
-    color:rgba(205, 16, 85, 0.842);
+    color:rgba(51, 4, 73, 0.842);
+    
   }
   
   ul li {
