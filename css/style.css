@@ -445,7 +445,16 @@ header {
 #other .ski {
   width: 100%;
   background-color: rgb(145, 139, 175);
+  display: column;
+  
 }
+
+#other .ski li{
+  font-size: 20px;
+  padding: 8px;
+  
+}
+
 
 #other .ski .details
  {
@@ -453,6 +462,8 @@ header {
   flex-direction: row;
   padding-top: 20px;
 }
+
+
 
 #other .in {
   width: 100%;
@@ -466,22 +477,7 @@ header {
   padding-top: 20px;
 }
 
-#other dl
- {
-  margin-left: 100px;
-  padding-bottom: 20px;
-  font-size: 25px; 
-  font-weight: bold;
-  color: #5e0842;
-}
 
-#other dd
- {
-  margin-left: 100px;
-  padding-bottom: 20px;
-  font-size: 25px; 
-  font-style: oblique;
-}
 
 #other li
  {
