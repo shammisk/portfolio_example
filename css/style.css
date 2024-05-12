@@ -286,25 +286,34 @@ header {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
-  
-  
+
+   @media only screen and (max-width: 600px) {
+    
+  #pic {
+    flex-direction: column; /* Stack the image and text vertically on small devices */
+    align-items: center; /* Center the image and text vertically */
+    text-align: justify; /* Justify the text */
+  }
+
   #pic img {
-    max-width: 70%; /* Set the maximum width to 100% for small screens */
-    height: 70%; /* Maintain the aspect ratio */
-  
-    
-    
+    width: 70%; /* Make the image width 100% to fit smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add spacing between image and text */
   }
-   #intro {
-    font-size: 12px; /* Adjust font size for smaller screens */
-    
-    
-    
-   
-    
-   
+  #intro {
+    font-size: 16px; /* Adjust font size for smaller devices */
+    padding: 5px; /* Adjust padding for smaller devices */
   }
+
+  #intro h2 {
+    font-size: 1.5rem; /* Adjust heading font size for smaller devices */
+    margin-bottom: 10px; /* Adjust margin for smaller devices */
+  }
+
+  #intro h3 {
+    font-size: 1.2rem; /* Adjust sub-heading font size for smaller devices */
+  }
+}
    #con {
     font-size: 15px;
     margin-top: 5px;

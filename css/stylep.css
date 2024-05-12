@@ -75,3 +75,21 @@ ul #link a {
 ul li span {
   color: rgb(70, 70, 66);
 }
+@media only screen and (max-width: 600px) {
+  body {
+    
+    margin: 10px; /* Adjusted margin for smaller devices */
+  }
+
+  #title {
+  padding-top: 60px;
+  
+}
+
+
+  .ks img {
+    margin-left: 0;
+    width:100%;
+   
+  }
+}
