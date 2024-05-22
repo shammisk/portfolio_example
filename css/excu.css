@@ -1,8 +1,7 @@
-/* General styles for all devices */
 #backHome {
   position: fixed;
-  top: 40px;
-  left: 40px;
+  top: 20px;
+  left: 20px;
   background: rgb(74, 74, 68);
   color: white;
   padding: 20px;
@@ -18,27 +17,32 @@ p {
   padding: 0;
 }
 
+p {
+  text-align: justify;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 20px; /* Adjusted margin for smaller devices */
+  margin: 100px 100px 100px 250px;
   background-color: #f7f7f7;
 }
 
+
 #title1 {
-  font-size: 20px;
-  margin-top: 20px;
-  color: rgb(255, 253, 254);
-  background: linear-gradient(141deg, rgb(34, 2, 57) 11%, rgb(141, 94, 167) 48%, rgb(113, 20, 189) 83%);
+  font-size:20px;
   font-weight: bold;
-  padding-left: 10px;
+   background: linear-gradient(141deg, rgb(225, 197, 130) 11%, rgb(197, 155, 111) 48%, rgb(72, 59, 22) 83%);
+   padding-left: 6px;
 }
 
 #title {
   font-size: 20px;
   margin-top: 20px;
-  color: rgb(74, 74, 68);
+  color: rgb(250, 249, 251);
   font-weight: bold;
+  background: linear-gradient(141deg, rgb(46, 2, 43) 11%, rgb(191, 111, 197) 48%, rgb(72, 22, 72) 83%);
+  padding-left: 6px;
 }
 
 .ks {
@@ -51,13 +55,22 @@ body {
 }
 
 .ks img {
-  width: 100%; /* Changed width to 100% to make images responsive */
+ width:500px; /* Adjusted image width to fit smaller screens */
   height: auto;
+  margin-left: 20px;
   margin-bottom: 20px;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .ks img {
+    width: calc(50% - 20px); /* Set image width to 50% of the container minus margin */
+    margin-left: 0;
+  }
+}
+
 h3 {
-  color: rgba(51, 4, 73, 0.842);
+  color: rgba(205, 16, 85, 0.842);
 }
 
 ul li {
@@ -94,59 +107,24 @@ ul li span {
   color: rgb(48, 114, 212);
 }
 
-/* Media query for small devices */
+/* Media query for smaller devices */
 @media only screen and (max-width: 600px) {
+
   body {
-    margin: 10px; /* Adjusted margin for smaller devices */
-   
+      margin: 50px;
   }
 
   .ks img {
-    margin-left: 0;
-  }
-
-  #backHome {
-    top: 20px;
-    left: 20px;
-    padding: 15px; /* Adjusted padding for smaller devices */
-  }
-
-  #title1 {
-   padding-top: 60px;
-    font-size: 18px; /* Adjusted font size for smaller devices */
-  }
-
-  #title {
-    font-size: 18px; /* Adjusted font size for smaller devices */
+      margin-left: 0;
   }
 
   .ks {
-    padding: 15px; /* Adjusted padding for smaller devices */
-  }
-
-  .ks img {
-    margin-bottom: 10px; /* Adjusted margin for smaller devices */
-  }
-
-  ul li {
-    margin-bottom: 5px; /* Adjusted margin for smaller devices */
-  }
-
-  ul li p {
-    font-size: 16px; /* Adjusted font size for smaller devices */
+      padding: 10px;
   }
 
   ul #link a {
-    padding: 8px 16px; /* Adjusted padding for smaller devices */
-    font-size: 14px; /* Adjusted font size for smaller devices */
-    margin-right: 5px; /* Adjusted margin for smaller devices */
-  }
-
-  li h3 {
-    font-size: 18px; /* Adjusted font size for smaller devices */
-  }
-
-  ul li span {
-    font-size: 16px; /* Adjusted font size for smaller devices */
+      padding: 5px 10px;
+      margin-right: 5px;
   }
 }
+
