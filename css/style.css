@@ -331,7 +331,7 @@ header {
     margin-left: 0;
     margin-top: 5px;
   }
-}
+
 
 /*resume section*/
 #resume {
@@ -454,17 +454,18 @@ header {
   #resume .baj .details .image img {
     margin-left: 10px;
   }
+  
 
   #resume .edu h2,
   #resume .courses h2,
   #resume .exp h2,
   #resume .vol h2,
   #resume .baj h2 {
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 10px;
   }
   #resume .section h2 {
-    font-size: 25px;
+    font-size: 10px;
     padding-left: 10px;
   }
 }
