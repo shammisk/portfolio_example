@@ -61,11 +61,30 @@ body {
   margin-bottom: 20px;
 }
 
+.pro{
+  padding:20px;
+  background-color: aquamarine;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 1010px;
+  
+}
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
+  .ks {
+    padding: 10px; /* Adjust padding for smaller screens */
+    margin-top: 10px; /* Adjust margin for smaller screens */
+    gap: 10px; /* Adjust gap between items for smaller screens */
+  }
+
   .ks img {
-    width: calc(50% - 20px); /* Set image width to 50% of the container minus margin */
-    margin-left: 0;
+    width: calc(80vw - 40px); /* Full width minus margins */
+    max-width: none; /* Remove max-width constraint */
+    height: auto;
+    margin: 20px auto; /* Center the image */
+    display: block;
   }
 }
 
@@ -114,26 +133,24 @@ ul li span {
       margin: 50px;
   }
 
-  .ks img {
-      margin-left: 0;
-  }
-
-  .ks {
-      padding: 10px;
-  }
-
-  ul #link a {
-      padding: 5px 10px;
-      margin-right: 5px;
-  }
-}
-
-.pro{
-  padding:20px;
-  background-color: aquamarine;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 20px;
-  margin-right: 1010px;
+ 
   
+  ul #link a {
+    display: block; /* Display links as blocks to make them stack vertically */
+    width: calc(50% - 5px); /* Set width for each link to occupy half of the container width with a small gap */
+    margin-right: 0; /* Remove margin between links on small screens */
+    margin-bottom: 10px; /* Add margin between links vertically for small screens */
+  }
+
+  .pro {
+    padding: 10px;
+    margin-right: 0; /* Remove right margin for small screens */
+  }
+
+   #title {
+    font-size: 16px; /* Adjust font size for small screens */
+    margin-top: 10px; /* Adjust margin for small screens */
+  }
+
 }
+
