@@ -103,3 +103,30 @@ body, html {
     left: 0;
 }
 
+
+<!--Home-->
+.section {
+    display: flex;
+    align-items: center; /* Center vertically if necessary */
+    justify-content: flex-start; /* Align to the left */
+    height: 100vh; /* Full viewport height */
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.content-left {
+    margin-left: 0; /* Align content to the left */
+}
+
+.home-image {
+    max-width: 30%;
+    height: auto;
+    padding-left: 140px;
+    padding-top: 50px;
+}
+
+
+

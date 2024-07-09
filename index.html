@@ -7,20 +7,57 @@
     <title>Gamage</title>
     <link rel="icon" href="img/ssk.jpg" type="image/png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="navbar">
-        <button class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
-        <ul class="nav-links">
-            <li class="close-menu"><a href="javascript:void(0);" onclick="toggleMenu()"><i class="fas fa-times"></i></a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Portfolio</a></li>
-        </ul>
-    </nav>
-    
+    <button class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+    <ul class="nav-links">
+        <li class="close-menu"><a href="javascript:void(0);" onclick="toggleMenu()"><i class="fas fa-times"></i></a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="javascript:void(0);" onclick="toggleMode()"><i class="fas fa-moon mode-icon"></i></a></li>
+    </ul>
+</nav>
+
+
+    <section id="home" class="section">
+        <div class="content">
+            <div class="content-left">
+            <img src="img/ss.png" alt="Image description" class="home-image">
+        </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="content">
+            <!-- Content for About section -->
+            <h2>About Me</h2>
+            <p>Insert your details about yourself here.</p>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="content">
+            <!-- Content for Resume section -->
+            <h2>Resume</h2>
+            <p>Your resume information goes here.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="content">
+            <!-- Content for Portfolio section -->
+            <h2>Portfolio</h2>
+            <p>Showcase your projects and works.</p>
+        </div>
+    </section>
+
     <script src="js/script.js"></script>
 </body>
 </html>
+
