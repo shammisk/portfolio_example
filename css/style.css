@@ -354,67 +354,67 @@ body.dark-mode .btn:focus {
 .count-container {
     display: flex;
     justify-content: space-around;
-    max-width: 1200px; /* Example max-width */
-    margin: 0 auto; /* Centering the container */
+    max-width: 1200px;
+    margin: 0 auto;
     gap: 20px;
 }
 
 .count-item {
     flex: 1;
     padding: 20px;
-    background-color: #a871e0; /* Example background color */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    background-color: #a871e0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    
 }
 
 .count {
-    font-size: 36px; /* Example font size */
-    font-weight: bold; /* Example font weight */
+    font-size: 36px;
+    font-weight: bold;
     display: block;
     margin-bottom: 10px;
 }
 
 .label {
-    font-size: 18px; /* Example font size */
-    color: #31023f; /* Example color */
+    font-size: 18px;
+    color: #31023f;
 }
 
 /* Media query for smaller devices */
 @media (max-width: 768px) {
     .resume-image-row {
         flex-direction: column;
-        gap: 10px; /* Adjust the gap for smaller screens */
+        gap: 10px;
         margin-top: 30px;
         padding-top: 30px;
     }
 
     .resume-round-image {
-        width: 60px; /* Adjust the size for smaller screens */
-        height: 60px; /* Adjust the size for smaller screens */
+        width: 60px;
+        height: 60px;
     }
 
     .image-name {
-        font-size: 12px; /* Adjust the font size for smaller screens */
+        font-size: 12px;
     }
 
     .count-section {
-        padding: 20px 0; /* Adjust padding for smaller screens */
+        padding: 20px 0;
     }
 
     .count-item {
-        flex: 1 1 100%; /* Take full width on smaller screens */
-        margin: 10px 0; /* Adjust margin for smaller screens */
+        flex: 1 1 100%;
+        margin: 10px 0;
         padding: 10px;
-        font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 16px;
     }
 
     .count {
-        font-size: 24px; /* Adjust font size for smaller screens */
+        font-size: 24px;
     }
 
     .label {
-        font-size: 12px; /* Adjust font size for smaller screens */
+        font-size: 12px;
     }
 }
 
@@ -441,10 +441,10 @@ body.dark-mode .btn:focus {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 30px;
-    margin-right: 20px; /* Adjusted margin for spacing */
-    margin-left: 20px; /* Adjusted margin for spacing */
+    margin-right: 20px;
+    margin-left: 20px;
     transition: transform 0.3s ease;
-    width: calc(50% - 40px); /* Adjusted width calculation for spacing */
+    width: calc(50% - 40px);
     max-width: 300px;
 }
 
@@ -502,19 +502,19 @@ body.dark-mode .btn:focus {
 
 #contact {
   padding: 20px;
-  background-color: #f8f3f3; /* Example background color */
+  background-color: #f8f3f3;
 }
 
 .container {
   display: flex;
-  justify-content: flex-start; /* Align items to the start (left) */
-  gap: 50px; /* Reduce gap between contact-info and contact-form */
+  justify-content: flex-start;
+  gap: 50px;
 }
 
 .contact-info {
   margin-bottom: 20px;
-  text-align: left; /* Ensure text is left-aligned */
-  margin-right: auto; /* Pushes contact-info to the left */
+  text-align: left;
+  margin-right: auto;
   margin-left: 150px;
 }
 
