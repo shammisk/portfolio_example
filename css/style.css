@@ -151,6 +151,7 @@ body.dark-mode .mood-toggle i {
 
 
 <!--Home-->
+/* Home Section Styles */
 .section {
     display: flex;
     align-items: center; /* Center vertically if necessary */
@@ -174,5 +175,55 @@ body.dark-mode .mood-toggle i {
     padding-top: 0px;
 }
 
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    padding-left: 220px;
+}
 
+.btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #575757;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    background-color: #575757;
+    transform: translateY(0);
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* Dark theme button styles */
+body.dark-mode .btn {
+    background-color: #555;
+    color: white;
+}
+
+body.dark-mode .btn:hover {
+    background-color: #777;
+}
+
+body.dark-mode .btn:active {
+    background-color: #777;
+}
+
+body.dark-mode .btn:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
 
