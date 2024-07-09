@@ -153,14 +153,14 @@ body.dark-mode .mood-toggle i {
 <!--Home-->
 /* Home Section Styles */
 
-.section {
+.home-section {
     display: flex;
     align-items: center; /* Center vertically if necessary */
     justify-content: flex-start; /* Align to the left */
     height: 100vh; /* Full viewport height */
 }
 
-.content {
+.home-content {
     display: flex;
     flex: 1;
     width: 100%;
@@ -175,7 +175,7 @@ body.dark-mode .mood-toggle i {
     max-width: 400px;
     height: auto;
     padding-left: 140px; /* Adjust padding for larger screens */
-    
+    padding-top: 120px;
 }
 
 .buttons {
@@ -306,5 +306,27 @@ body.dark-mode .btn:focus {
 }
 
 
+<!--resume-->
+.resume-section {
+    padding: 20px;
+}
 
 
+.resume-content {
+    text-align: center;
+}
+
+.resume-image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px; /* Adjust the gap as needed */
+    margin-top: 100px; /* Optional: add margin-top for spacing */
+}
+
+.resume-round-image {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 10%;
+    object-fit: cover;
+}
