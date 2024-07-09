@@ -13,9 +13,9 @@ body, html {
     align-items: center;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    position: fixed; /* Make the navbar fixed at the top */
+    position: fixed; 
     top: 0;
-    z-index: 1000; /* Ensure the navbar is above other content */
+    z-index: 1000; 
 }
 
 .menu-toggle {
@@ -66,12 +66,12 @@ body, html {
 
 .content {
     padding: 20px;
-    padding-top: 60px; /* Add padding to ensure content is not hidden behind the navbar */
+    padding-top: 60px; 
 }
 
 .section {
     padding: 20px;
-    padding-top: 80px; /* Adjust as needed to ensure the content is fully visible */
+    padding-top: 80px; 
 }
 
 @media screen and (max-width: 768px) {
@@ -155,9 +155,9 @@ body.dark-mode .mood-toggle i {
 
 .home-section {
     display: flex;
-    align-items: center; /* Center vertically if necessary */
-    justify-content: flex-start; /* Align to the left */
-    /* Full viewport height */
+    align-items: center; 
+    justify-content: flex-start; 
+    
 }
 
 .home-content {
@@ -167,14 +167,14 @@ body.dark-mode .mood-toggle i {
 }
 
 .content-left {
-    position: relative; /* Add relative positioning to the container */
-    flex: 1; /* Ensure it takes the appropriate space */
+    position: relative; 
+    flex: 1; 
 }
 
 .home-image {
     max-width: 400px;
     height: auto;
-    padding-left: 140px; /* Adjust padding for larger screens */
+    padding-left: 140px; 
     padding-top: 120px;
 }
 
@@ -182,8 +182,8 @@ body.dark-mode .mood-toggle i {
     margin-top: 20px;
     display: flex;
     gap: 10px;
-    justify-content: flex-start; /* Align buttons to the left by default */
-    padding-left: 220px; /* Adjust padding for larger screens */
+    justify-content: flex-start; 
+    padding-left: 220px; 
 }
 
 .btn {
@@ -196,8 +196,8 @@ body.dark-mode .mood-toggle i {
     border-radius: 4px;
     transition: background-color 0.3s, transform 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-decoration: none; /* Ensures the link looks like a button */
-    display: inline-block; /* Ensures the link respects button styling */
+    text-decoration: none; 
+    display: inline-block; 
 }
 
 .btn:hover {
@@ -233,12 +233,12 @@ body.dark-mode .btn:focus {
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
 }
 
-/* Social Icons */
+
 .social-icons {
     display: flex;
     gap: 10px;
     margin-top: 10px;
-    padding-left: 240px; /* Adjust padding for larger screens */
+    padding-left: 240px; 
 }
 
 .social-icons a {
@@ -255,27 +255,26 @@ body.dark-mode .btn:focus {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: rgba(255, 255, 255, 0.8); /* Optional: Add background for better readability */
-    padding: 10px; /* Adjust padding as needed */
-    border-radius: 8px; /* Optional: Add border radius for better aesthetics */
-    max-width: 50%; /* Adjust width as needed */
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 10px; 
+    border-radius: 8px;
+    max-width: 50%; 
      margin-top: 140px;
 }
 
 .content-right h1 {
-    margin: 0; /* Reset margin if necessary */
-    padding-bottom: 10px; /* Add some space below the heading */
+    margin: 0; 
+    padding-bottom: 10px; 
     padding-top: 10px;
    
 }
 
 .content-right p {
-    margin: 0; /* Reset margin if necessary */
-    padding-bottom: 20px; /* Add some space below the paragraph */
+    margin: 0; 
+    padding-bottom: 20px; 
 }
 
-/* Media query for small devices (max-width: 768px) */
-/* Media query for small devices (max-width: 768px) */
+
 /* Media query for small devices (max-width: 768px) */
 @media screen and (max-width: 768px) {
     .home-image {
@@ -320,8 +319,8 @@ body.dark-mode .btn:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px; /* Adjust the gap as needed */
-    margin-top: 100px; /* Optional: add margin-top for spacing */
+    gap: 70px; 
+    margin-top: 100px; 
     padding-top: 10px;
 }
 
@@ -332,8 +331,8 @@ body.dark-mode .btn:focus {
 }
 
 .resume-round-image {
-    width: 100px; /* Adjust the size as needed */
-    height: 100px; /* Adjust the size as needed */
+    width: 100px; 
+    height: 100px; 
     border-radius: 10%;
     object-fit: cover;
     background-color: aliceblue;
@@ -341,8 +340,8 @@ body.dark-mode .btn:focus {
 
 .image-name {
     margin-top: 10px;
-    font-size: 16px; /* Adjust the font size as needed */
-    color: #333; /* Adjust the color as needed */
+    font-size: 16px; 
+    color: #333; 
 }
 
 .count-section {
@@ -354,67 +353,66 @@ body.dark-mode .btn:focus {
 .count-container {
     display: flex;
     justify-content: space-around;
-    max-width: 1200px; /* Example max-width */
-    margin: 0 auto; /* Centering the container */
+    max-width: 1200px; 
+    margin: 0 auto; 
     gap: 20px;
 }
 
 .count-item {
     flex: 1;
     padding: 20px;
-    background-color: #a871e0; /* Example background color */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    background-color: #a871e0; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
    
 }
 
 .count {
-    font-size: 36px; /* Example font size */
-    font-weight: bold; /* Example font weight */
+    font-size: 36px; 
+    font-weight: bold; 
     display: block;
     margin-bottom: 10px;
 }
 
 .label {
-    font-size: 18px; /* Example font size */
-    color: #31023f; /* Example color */
+    font-size: 18px; 
+    color: #31023f; 
 }
 
 /* Media query for smaller devices */
 @media (max-width: 768px) {
     .resume-image-row {
         flex-direction: column;
-        gap: 10px; /* Adjust the gap for smaller screens */
+        gap: 10px; 
         margin-top: 30px;
         padding-top: 30px;
     }
 
     .resume-round-image {
-        width: 60px; /* Adjust the size for smaller screens */
-        height: 60px; /* Adjust the size for smaller screens */
+        width: 60px; 
+        height: 60px; 
     }
 
     .image-name {
-        font-size: 12px; /* Adjust the font size for smaller screens */
+        font-size: 12px; 
     }
 
     .count-section {
-        padding: 20px 0; /* Adjust padding for smaller screens */
+        padding: 20px 0;
     }
 
     .count-item {
-        flex: 1 1 100%; /* Take full width on smaller screens */
-        margin: 10px 0; /* Adjust margin for smaller screens */
+        flex: 1 1 100%; 
+        margin: 10px 0; 
         padding: 10px;
-        font-size: 16px; /* Adjust font size for smaller screens */
-    }
+        font-size: 16px; 
 
     .count {
-        font-size: 24px; /* Adjust font size for smaller screens */
+        font-size: 24px; 
     }
 
     .label {
-        font-size: 12px; /* Adjust font size for smaller screens */
+        font-size: 12px; 
     }
 }
 
@@ -441,10 +439,10 @@ body.dark-mode .btn:focus {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 30px;
-    margin-right: 20px; /* Adjusted margin for spacing */
-    margin-left: 20px; /* Adjusted margin for spacing */
+    margin-right: 20px; 
+    margin-left: 20px; 
     transition: transform 0.3s ease;
-    width: calc(50% - 40px); /* Adjusted width calculation for spacing */
+    width: calc(50% - 40px); 
     max-width: 300px;
 }
 
@@ -502,44 +500,44 @@ body.dark-mode .btn:focus {
 
 #contact {
   padding: 20px;
-  background-color: #f8f3f3; /* Example background color */
+  background-color: #f8f3f3; 
 }
 
 .container {
   display: flex;
-  justify-content: flex-start; /* Align items to the start (left) */
-  gap: 50px; /* Reduce gap between contact-info and contact-form */
+  justify-content: flex-start; 
+  gap: 50px; 
 }
 
 .contact-info {
   margin-bottom: 20px;
-  text-align: left; /* Ensure text is left-aligned */
-  margin-right: auto; /* Pushes contact-info to the left */
+  text-align: left; 
+  margin-right: auto; 
   margin-left: 150px;
 }
 
 .contact-info h2 {
-  font-size: 1.5rem; /* Example font size */
+  font-size: 1.5rem; 
   margin-bottom: 10px;
 }
 
 .contact-social-icons {
-  margin-top: 10px; /* Adjust spacing */
+  margin-top: 10px; 
 }
 
 .contact-social-icons a {
-  color: #f00606; /* Example color */
-  font-size: 1.7rem; /* Example font size */
-  margin-right: 10px; /* Adjust spacing between icons */
+  color: #f00606; 
+  font-size: 1.7rem; 
+  margin-right: 10px; 
 }
 
 .contact-social-icons a:hover {
-  color: #056b11; /* Example hover color */
+  color: #056b11; 
 }
 
-/* Example form styles */
+
 #contact-form {
-  max-width: 100px; /* Adjust form width as needed */
+  max-width: 100px; 
   width: 100px;
   margin-right:700px;
 }
@@ -558,30 +556,30 @@ input[type="email"],
 textarea {
   width: 500px;
   padding: 10px;
-  font-size: 1rem; /* Example font size */
+  font-size: 1rem; 
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 button[type="submit"] {
-  background-color: #007bff; /* Example button color */
+  background-color: #007bff; 
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
  
-  font-size: 1rem; /* Example font size */
+  font-size: 1rem; 
   margin-bottom: 60px;
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3; /* Example hover color */
+  background-color: #0056b3; 
 }
 
 #status-message {
   margin-top: 0px;
-  font-size: 0.9rem; /* Example font size */
+  font-size: 0.9rem; 
   margin-bottom: 50px;
 }
 
@@ -589,13 +587,13 @@ button[type="submit"]:hover {
 
 
 .footer {
-    position: fixed; /* Fixed positioning so it stays at the bottom left */
+    position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%; /* Full width of the viewport */
-    background-color: #333; /* Example background color */
-    color: #fff; /* Text color */
-    padding: 10px 20px; /* Padding for better readability */
-    text-align: left; /* Align text to the left */
-    font-size: 14px; /* Adjust font size as needed */
+    width: 100%; 
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px; 
+    text-align: left; 
+    font-size: 14px; 
 }
