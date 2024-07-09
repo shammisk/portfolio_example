@@ -501,19 +501,21 @@ body.dark-mode .btn:focus {
 
 
 #contact {
-  padding: 50px 0; /* Adjust as needed */
+ padding: 20px;
   background-color: #f8f3f3; /* Example background color */
 }
 
 .container {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Align items to the top */
+  gap: 150px;
+  
 }
 
 .contact-info {
   margin-bottom: 20px;
   text-align: left; /* Ensure text is left-aligned */
+
 }
 
 .contact-info h2 {
@@ -537,8 +539,8 @@ body.dark-mode .btn:focus {
 
 /* Example form styles */
 #contact-form {
-  max-width: 600px; /* Adjust form width as needed */
-  width: 100%;
+  max-width: 100px; /* Adjust form width as needed */
+  width: 100px;
 }
 
 .form-group {
