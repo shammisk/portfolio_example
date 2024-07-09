@@ -152,7 +152,7 @@ body.dark-mode .mood-toggle i {
 
 <!--Home-->
 /* Home Section Styles */
-/* Home Section Styles */
+
 .section {
     display: flex;
     align-items: center; /* Center vertically if necessary */
@@ -162,8 +162,9 @@ body.dark-mode .mood-toggle i {
 
 .content {
     display: flex;
+    flex:1;
     width: 100%;
-    justify-content: flex-start; /* Align content to the left by default */
+     /* Align content to the left by default */
 }
 
 .home-image {
@@ -276,3 +277,7 @@ body.dark-mode .btn:focus {
           margin-right: 45px;
     }
 }
+
+
+
+
