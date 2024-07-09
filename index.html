@@ -120,80 +120,101 @@
 
 
     <section id="portfolio" class="portfolio-section">
-      <h1>Resume</h1>
+      
     <div class="portfolio-content">
       
         <div class="project-box">
-            <img src="project1.jpg" alt="web">
+            <img src="img/app-development.png" alt="web">
             <h3>Web </h3>
             <ul>
-                <li>Description or list item 1</li>
-                <li>Description or list item 2</li>
-                <li>Description or list item 3</li>
-            </ul>
-            <a href="project1_link.html">Project 1 Link</a>
+            <li>MERN Stack, HTML, CSS, JavaScript</li></ul>
+            <a href="project1_link.html">Projects</a>
         </div>
 
         <div class="project-box">
-            <img src="project2.jpg" alt="mobile">
+            <img src="img/ui-design.png" alt="mobile">
             <h3>Mobile</h3>
             <ul>
-                <li>Description or list item 1</li>
-                <li>Description or list item 2</li>
-                <li>Description or list item 3</li>
+                <li>React-native</li>
+                
             </ul>
-            <a href="project2_link.html">Project 2 Link</a>
+            <a href="project2_link.html">Projects</a>
         </div>
 
         <!-- Repeat similar structure for projects 3 and 4 -->
         <div class="project-box">
-            <img src="project3.jpg" alt="Desktop">
+            <img src="img/monitor.png" alt="Desktop">
             <h3>Desktop</h3>
             <ul>
-                <li>Description or list item 1</li>
-                <li>Description or list item 2</li>
-                <li>Description or list item 3</li>
+                <li>Python,C#</li>
+                
+               
             </ul>
-            <a href="project3_link.html">Project 3 Link</a>
+            <a href="project3_link.html">Projects</a>
         </div>
 
         <div class="project-box">
-            <img src="project4.jpg" alt=" ui/ux">
+            <img src="img/ux-design.png" alt=" ui/ux">
             <h3>UI/UX</h3>
             <ul>
-                <li>Description or list item 1</li>
-                <li>Description or list item 2</li>
-                <li>Description or list item 3</li>
+                <li>Figma</li>
+                
             </ul>
-            <a href="project4_link.html">Project 4 Link</a>
+            <a href="project4_link.html">Projects</a>
         </div>
          <div class="project-box">
-            <img src="project4.jpg" alt="iot">
+            <img src="img/internet-of-things.png" alt="iot">
             <h3>IOT</h3>
             <ul>
-                <li>Description or list item 1</li>
-                <li>Description or list item 2</li>
-                <li>Description or list item 3</li>
+                <li>Arudiuno</li>
+               
+                
             </ul>
-            <a href="project4_link.html">Project 4 Link</a>
+            <a href="project4_link.html">Projects</a>
         </div>
          <div class="project-box">
-            <img src="project4.jpg" alt="hrm">
+            <img src="img/hrm.png" alt="hrm">
             <h3>HRM</h3>
             <ul>
-                <li>Description or list item 1</li>
-                <li>Description or list item 2</li>
-                <li>Description or list item 3</li>
+                <li>Tranning and Development</li>
+                
             </ul>
-            <a href="project4_link.html">Project 4 Link</a>
+            <a href="project4_link.html">Projects</a>
         </div>
     </div>
 </section>
-<section id="contact" class="contact-section">
-  <h1>hi</h1>
+<section id="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form id="contact-form" method="POST">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" id="submit-btn">Send Message</button>
+      <p id="status-message"></p>
+    </form>
+  </div>
 </section>
 
+
+
+
     <script src="js/script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 </body>
 </html>
 
