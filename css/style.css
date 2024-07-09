@@ -157,7 +157,7 @@ body.dark-mode .mood-toggle i {
     display: flex;
     align-items: center; /* Center vertically if necessary */
     justify-content: flex-start; /* Align to the left */
-    height: 100vh; /* Full viewport height */
+    /* Full viewport height */
 }
 
 .home-content {
@@ -308,11 +308,12 @@ body.dark-mode .btn:focus {
 
 <!--resume-->
 .resume-section {
-    padding: 20px;
+    padding: 0px;
 }
 
 .resume-content {
     text-align: center;
+    padding-top: 60px;
 }
 
 .resume-image-row {
@@ -321,7 +322,7 @@ body.dark-mode .btn:focus {
     align-items: center;
     gap: 70px; /* Adjust the gap as needed */
     margin-top: 100px; /* Optional: add margin-top for spacing */
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .resume-image-container {
@@ -418,20 +419,13 @@ body.dark-mode .btn:focus {
 }
 
 
-body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
 
-        .section {
-            padding: 40px 0;
+.portfolio-section {
+            padding: 80px ;
             text-align: center;
         }
 
-        .content {
+        .portfolio-content {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
