@@ -311,7 +311,6 @@ body.dark-mode .btn:focus {
     padding: 20px;
 }
 
-
 .resume-content {
     text-align: center;
 }
@@ -322,7 +321,13 @@ body.dark-mode .btn:focus {
     align-items: center;
     gap: 70px; /* Adjust the gap as needed */
     margin-top: 100px; /* Optional: add margin-top for spacing */
-     padding-top: 100px;
+    padding-top: 100px;
+}
+
+.resume-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .resume-round-image {
@@ -330,6 +335,84 @@ body.dark-mode .btn:focus {
     height: 100px; /* Adjust the size as needed */
     border-radius: 10%;
     object-fit: cover;
-   background-color: aliceblue;
-  
+    background-color: aliceblue;
+}
+
+.image-name {
+    margin-top: 10px;
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+}
+
+.count-section {
+    padding-top: 150px;
+   
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px; /* Example max-width */
+    margin: 0 auto; /* Centering the container */
+    gap: 20px;
+}
+
+.count-item {
+    flex: 1;
+    padding: 20px;
+    background-color: #a871e0; /* Example background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+   
+}
+
+.count {
+    font-size: 36px; /* Example font size */
+    font-weight: bold; /* Example font weight */
+    display: block;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 18px; /* Example font size */
+    color: #31023f; /* Example color */
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+    .resume-image-row {
+        flex-direction: column;
+        gap: 10px; /* Adjust the gap for smaller screens */
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+    .resume-round-image {
+        width: 60px; /* Adjust the size for smaller screens */
+        height: 60px; /* Adjust the size for smaller screens */
+    }
+
+    .image-name {
+        font-size: 12px; /* Adjust the font size for smaller screens */
+    }
+
+    .count-section {
+        padding: 20px 0; /* Adjust padding for smaller screens */
+    }
+
+    .count-item {
+        flex: 1 1 100%; /* Take full width on smaller screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+        padding: 10px;
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .count {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .label {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
 }
