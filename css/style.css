@@ -162,15 +162,20 @@ body.dark-mode .mood-toggle i {
 
 .content {
     display: flex;
-    flex:1;
+    flex: 1;
     width: 100%;
-     /* Align content to the left by default */
+}
+
+.content-left {
+    position: relative; /* Add relative positioning to the container */
+    flex: 1; /* Ensure it takes the appropriate space */
 }
 
 .home-image {
-    max-width: 30%;
+    max-width: 400px;
     height: auto;
     padding-left: 140px; /* Adjust padding for larger screens */
+    
 }
 
 .buttons {
@@ -246,38 +251,26 @@ body.dark-mode .btn:focus {
     color: #575757;
 }
 
-/* For smaller devices (e.g., tablets and mobile phones) */
-@media screen and (max-width: 768px) {
-    .section {
-        justify-content: center; /* Center content vertically and horizontally */
-        padding: 20px; /* Add padding for better spacing */
-    }
-
-    .content {
-        padding-left: 20px; /* Adjust padding as needed */
-    }
-
-    .home-image {
-        max-width: 80%; /* Adjust image width for smaller screens */
-        padding-left: 0; /* Remove specific padding */
-        text-align: center; /* Center image within its container */
-    }
-
-    .buttons {
-        justify-content: center; /* Center buttons horizontally */
-        padding-left: 0; /* Remove specific padding */
-        margin-top: 10px; /* Adjust margin */
-        margin-right: 40px;
-    }
-
-    .social-icons {
-        justify-content: center; /* Center icons horizontally */
-        padding-left: 0; /* Remove specific padding */
-        margin-top: 10px; /* Adjust margin */
-          margin-right: 45px;
-    }
+.content-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Optional: Add background for better readability */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 8px; /* Optional: Add border radius for better aesthetics */
+    max-width: 50%; /* Adjust width as needed */
 }
 
+.content-right h1 {
+    margin: 0; /* Reset margin if necessary */
+    padding-bottom: 10px; /* Add some space below the heading */
+    padding-top: 140px;
+}
+
+.content-right p {
+    margin: 0; /* Reset margin if necessary */
+    padding-bottom: 20px; /* Add some space below the paragraph */
+}
 
 
 
