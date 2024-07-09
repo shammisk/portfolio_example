@@ -163,24 +163,21 @@ body.dark-mode .mood-toggle i {
 .content {
     display: flex;
     width: 100%;
-}
-
-.content-left {
-    margin-left: 0; /* Align content to the left */
+    justify-content: flex-start; /* Align content to the left by default */
 }
 
 .home-image {
     max-width: 30%;
     height: auto;
-    padding-left: 140px;
-    padding-top: 0px;
+    padding-left: 140px; /* Adjust padding for larger screens */
 }
 
 .buttons {
     margin-top: 20px;
     display: flex;
     gap: 10px;
-    padding-left: 220px;
+    justify-content: flex-start; /* Align buttons to the left by default */
+    padding-left: 220px; /* Adjust padding for larger screens */
 }
 
 .btn {
@@ -235,7 +232,7 @@ body.dark-mode .btn:focus {
     display: flex;
     gap: 10px;
     margin-top: 10px;
-    padding-left: 240px;
+    padding-left: 240px; /* Adjust padding for larger screens */
 }
 
 .social-icons a {
@@ -246,4 +243,36 @@ body.dark-mode .btn:focus {
 
 .social-icons a:hover {
     color: #575757;
+}
+
+/* For smaller devices (e.g., tablets and mobile phones) */
+@media screen and (max-width: 768px) {
+    .section {
+        justify-content: center; /* Center content vertically and horizontally */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .content {
+        padding-left: 20px; /* Adjust padding as needed */
+    }
+
+    .home-image {
+        max-width: 80%; /* Adjust image width for smaller screens */
+        padding-left: 0; /* Remove specific padding */
+        text-align: center; /* Center image within its container */
+    }
+
+    .buttons {
+        justify-content: center; /* Center buttons horizontally */
+        padding-left: 0; /* Remove specific padding */
+        margin-top: 10px; /* Adjust margin */
+        margin-right: 40px;
+    }
+
+    .social-icons {
+        justify-content: center; /* Center icons horizontally */
+        padding-left: 0; /* Remove specific padding */
+        margin-top: 10px; /* Adjust margin */
+          margin-right: 45px;
+    }
 }
