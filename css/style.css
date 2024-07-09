@@ -112,6 +112,9 @@ html {
   .nav-links.open .close-menu {
     display: block;
   }
+   .mood-toggle {
+    padding-right: 60px; /* Adjust padding for smaller devices */
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -259,6 +262,7 @@ body.dark-mode .btn:focus {
   max-width: 50%; /* Adjust width as needed */
   margin-top: 140px;
   width: 50%;
+  text-align: justify;
 }
 
 .content-right h1 {
@@ -297,9 +301,10 @@ body.dark-mode .btn:focus {
     padding-left: 0;
   }
 
-  .home-image{
-    width:80%;
-    text-align: center;
+  .home-image {
+    width: 80%;
+    margin: 0 auto; /* Center align the image */
+    display: block; /* Ensures image is centered */
   }
 
   .buttons {
@@ -314,7 +319,7 @@ body.dark-mode .btn:focus {
 
   .content-right {
     max-width: 100%; /* Adjust width to full width of screen */
-    margin-top: 260px; /* Adjust margin for better spacing */
+    margin-top: 20px; /* Adjust margin for better spacing */
   }
 }
 
@@ -410,22 +415,19 @@ body.dark-mode .btn:focus {
   }
 
   .count-section {
+   
     padding: 20px 0; /* Adjust padding for smaller screens */
+  }}
+
+  @media screen and (max-width: 768px) {
+  .count-container {
+    flex-direction: column; /* Change flex direction to column for smaller screens */
+    align-items: center; /* Center align items */
   }
 
   .count-item {
-    flex: 1 1 100%; /* Take full width on smaller screens */
-    margin: 10px 0; /* Adjust margin for smaller screens */
-    padding: 10px;
-    font-size: 16px; /* Adjust font size for smaller screens */
-  }
-
-  .count {
-    font-size: 24px; /* Adjust font size for smaller screens */
-  }
-
-  .label {
-    font-size: 12px; /* Adjust font size for smaller screens */
+    width: 70%; /* Make items full width */
+    margin-bottom: 20px; /* Add spacing between items */
   }
 }
 
