@@ -518,7 +518,7 @@ body.dark-mode .btn:focus {
   display: flex;
   flex-direction: row;
   justify-content: center; /* Align items to the start (left) */
-  gap: 50px; /* Reduce gap between contact-info and contact-form */
+  gap: 150px; /* Reduce gap between contact-info and contact-form */
   width: 100%;
 }
 
@@ -527,6 +527,7 @@ body.dark-mode .btn:focus {
   text-align: left; /* Ensure text is left-aligned */
   justify-content: center;
   width: 30%;
+  margin-left: 150px;
 }
 
 .contact-info h2 {
@@ -616,10 +617,17 @@ button[type="submit"]:hover {
     text-align: left; /* Ensure text is left-aligned */
     justify-content: center;
     width: 100%;
+    margin-left: 0px;
   }
 
   #contact-form {
     justify-content: center;
-    width: 100%;
+    width: 10%;
   }
+
+  input[type="text"],
+input[type="email"],
+textarea {
+  width:300px;
+}
 }
