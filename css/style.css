@@ -152,6 +152,7 @@ body.dark-mode .mood-toggle i {
 
 <!--Home-->
 /* Home Section Styles */
+/* Home Section Styles */
 .section {
     display: flex;
     align-items: center; /* Center vertically if necessary */
@@ -192,6 +193,8 @@ body.dark-mode .mood-toggle i {
     border-radius: 4px;
     transition: background-color 0.3s, transform 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none; /* Ensures the link looks like a button */
+    display: inline-block; /* Ensures the link respects button styling */
 }
 
 .btn:hover {
@@ -227,3 +230,20 @@ body.dark-mode .btn:focus {
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
 }
 
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 240px;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #575757;
+}
