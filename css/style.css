@@ -519,27 +519,27 @@ body.dark-mode .btn:focus {
 }
 
 .contact-info h2 {
-  font-size: 1.5rem; /* Example font size */
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
 .contact-social-icons {
-  margin-top: 10px; /* Adjust spacing */
+  margin-top: 10px;
 }
 
 .contact-social-icons a {
-  color: #f00606; /* Example color */
-  font-size: 1.7rem; /* Example font size */
-  margin-right: 10px; /* Adjust spacing between icons */
+  color: #f00606;
+  font-size: 1.7rem;
+  margin-right: 10px;
 }
 
 .contact-social-icons a:hover {
-  color: #056b11; /* Example hover color */
+  color: #056b11;
 }
 
-/* Example form styles */
+
 #contact-form {
-  max-width: 100px; /* Adjust form width as needed */
+  max-width: 100px;
   width: 100px;
   margin-right:700px;
 }
@@ -558,7 +558,7 @@ input[type="email"],
 textarea {
   width: 500px;
   padding: 10px;
-  font-size: 1rem; /* Example font size */
+  font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
