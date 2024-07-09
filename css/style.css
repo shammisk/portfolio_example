@@ -589,13 +589,13 @@ button[type="submit"]:hover {
 
 
 .footer {
-    position: fixed; /* Fixed positioning so it stays at the bottom left */
+    position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%; /* Full width of the viewport */
-    background-color: #333; /* Example background color */
-    color: #fff; /* Text color */
-    padding: 10px 20px; /* Padding for better readability */
-    text-align: left; /* Align text to the left */
-    font-size: 14px; /* Adjust font size as needed */
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 14px;
 }
