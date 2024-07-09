@@ -501,15 +501,15 @@ body.dark-mode .btn:focus {
 
 
 #contact {
-  background-color: #f9f9f9;
-  padding: 50px 0;
+  
+  padding-top: 0px ;
   text-align: center;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 00px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-top: 0px;
 }
 
 form {
@@ -530,7 +530,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;
+  width: 500px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
