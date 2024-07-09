@@ -322,6 +322,7 @@ body.dark-mode .btn:focus {
     align-items: center;
     gap: 70px; /* Adjust the gap as needed */
     margin-top: 100px; /* Optional: add margin-top for spacing */
+     padding-top: 100px;
 }
 
 .resume-round-image {
@@ -329,4 +330,6 @@ body.dark-mode .btn:focus {
     height: 100px; /* Adjust the size as needed */
     border-radius: 10%;
     object-fit: cover;
+   background-color: aliceblue;
+  
 }
