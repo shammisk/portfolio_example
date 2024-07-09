@@ -351,7 +351,7 @@ body.dark-mode .btn:focus {
     text-align: center;
 }
 
-.container {
+.count-container {
     display: flex;
     justify-content: space-around;
     max-width: 1200px; /* Example max-width */
@@ -501,29 +501,52 @@ body.dark-mode .btn:focus {
 
 
 #contact {
-  
-  padding-top: 0px ;
-  text-align: center;
+  padding: 50px 0; /* Adjust as needed */
+  background-color: #f8f3f3; /* Example background color */
 }
 
 .container {
-  max-width: 00px;
-  margin: 0 auto;
-  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
 }
 
-form {
-  margin-top: 20px;
+.contact-info {
+  margin-bottom: 20px;
+  text-align: left; /* Ensure text is left-aligned */
+}
+
+.contact-info h2 {
+  font-size: 1.5rem; /* Example font size */
+  margin-bottom: 10px;
+}
+
+.contact-social-icons {
+  margin-top: 10px; /* Adjust spacing */
+}
+
+.contact-social-icons a {
+  color: #f00606; /* Example color */
+  font-size: 1.2rem; /* Example font size */
+  margin-right: 10px; /* Adjust spacing between icons */
+}
+
+.contact-social-icons a:hover {
+  color: #056b11; /* Example hover color */
+}
+
+/* Example form styles */
+#contact-form {
+  max-width: 600px; /* Adjust form width as needed */
+  width: 100%;
 }
 
 .form-group {
   margin-bottom: 20px;
-  text-align: left;
 }
 
 label {
   display: block;
-  font-weight: bold;
   margin-bottom: 5px;
 }
 
@@ -532,21 +555,43 @@ input[type="email"],
 textarea {
   width: 500px;
   padding: 10px;
+  font-size: 1rem; /* Example font size */
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 16px;
 }
 
 button[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
+  background-color: #007bff; /* Example button color */
+  color: #fff;
+  padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem; /* Example font size */
+  margin-bottom: 30px;
 }
 
 button[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #0056b3; /* Example hover color */
+}
+
+#status-message {
+  margin-top: 0px;
+  font-size: 0.9rem; /* Example font size */
+  margin-bottom: 50px;
+}
+
+
+
+
+.footer {
+    position: fixed; /* Fixed positioning so it stays at the bottom left */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full width of the viewport */
+    background-color: #333; /* Example background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding for better readability */
+    text-align: left; /* Align text to the left */
+    font-size: 14px; /* Adjust font size as needed */
 }
