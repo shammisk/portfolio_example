@@ -272,5 +272,37 @@ body.dark-mode .btn:focus {
     padding-bottom: 20px; /* Add some space below the paragraph */
 }
 
+/* Media query for small devices (max-width: 768px) */
+/* Media query for small devices (max-width: 768px) */
+/* Media query for small devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .home-image {
+        max-width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .buttons {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .social-icons {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .content-right {
+        position:relative;
+        top: initial;
+        right: initial;
+        margin-top: 120px; /* Adjust margin as needed */
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 8px;
+        max-width: 100%;
+    }
+}
+
+
 
 
