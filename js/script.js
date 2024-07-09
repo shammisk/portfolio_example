@@ -1,4 +1,3 @@
-/*Nav bar logic*/ 
 function toggleMenu() {
   var navLinks = document.querySelector(".nav-links");
   var menuToggle = document.querySelector(".menu-toggle");
@@ -11,7 +10,20 @@ function toggleMenu() {
   }
 }
 
+function toggleMood() {
+  var body = document.body;
+  var moodToggleIcon = document.querySelector(".mood-toggle i");
 
-   // Add this to your js/script.js
+  body.classList.toggle("dark-mode");
 
+  // Change icon based on the current theme
+  if (body.classList.contains("dark-mode")) {
+    moodToggleIcon.classList.remove("fa-moon");
+    moodToggleIcon.classList.add("fa-sun");
+  } else {
+    moodToggleIcon.classList.remove("fa-sun");
+    moodToggleIcon.classList.add("fa-moon");
+  }
+}
 
+// Add this to your js/script.js

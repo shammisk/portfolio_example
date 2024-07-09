@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .navbar {
@@ -50,9 +51,27 @@ body, html {
     border-radius: 4px;
 }
 
+.mood-toggle {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding-right: 70px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.mood-toggle:hover {
+    color: #f0f0f0;
+}
+
 .content {
     padding: 20px;
     padding-top: 60px; /* Add padding to ensure content is not hidden behind the navbar */
+}
+
+.section {
+    padding: 20px;
+    padding-top: 80px; /* Adjust as needed to ensure the content is fully visible */
 }
 
 @media screen and (max-width: 768px) {
@@ -106,6 +125,28 @@ body, html {
 
 .nav-links.open {
     left: 0;
+}
+
+/* Dark theme styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .nav-links li a {
+    color: #ffffff;
+}
+
+body.dark-mode .nav-links li a:hover {
+    background-color: #333333;
+}
+
+body.dark-mode .mood-toggle i {
+    color: #ffffff;
 }
 
 
