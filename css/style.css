@@ -12,6 +12,9 @@ body, html {
     align-items: center;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0;
+    z-index: 1000; /* Ensure the navbar is above other content */
 }
 
 .menu-toggle {
@@ -49,6 +52,7 @@ body, html {
 
 .content {
     padding: 20px;
+    padding-top: 60px; /* Add padding to ensure content is not hidden behind the navbar */
 }
 
 @media screen and (max-width: 768px) {
@@ -71,6 +75,7 @@ body, html {
         align-items: center;
         transition: 0.3s;
         padding-top: 60px;
+        z-index: 999; /* Ensure the mobile menu is above other content */
     }
 
     .nav-links li {

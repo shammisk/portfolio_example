@@ -12,5 +12,6 @@ function toggleMenu() {
 }
 
 
-   
+   // Add this to your js/script.js
+
 
