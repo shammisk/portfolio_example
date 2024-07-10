@@ -8,7 +8,7 @@ html {
 
 .navbar {
   width: 100%;
-  background-color: #333;
+  background-color: #055803;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +21,7 @@ html {
 
 .menu-toggle {
   display: none;
-  background-color: #333;
+  background-color: #055803;
   color: white;
   border: none;
   padding: 10px;
@@ -48,12 +48,12 @@ html {
 }
 
 .nav-links li a:hover {
-  background-color: #575757;
+  background-color: #72e976;
   border-radius: 4px;
 }
 
 .mood-toggle {
-  background-color: #333;
+  background-color: #055803;
   color: white;
   border: none;
   cursor: pointer;
@@ -84,7 +84,7 @@ html {
     top: 0;
     width: 250px;
     height: 100%;
-    background-color: #333;
+    background-color: #055803;
     flex-direction: column;
     align-items: center;
     transition: 0.3s;
@@ -188,7 +188,7 @@ body.dark-mode .mood-toggle i {
 }
 
 .btn {
-  background-color: #333;
+  background-color: #333333;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -202,18 +202,18 @@ body.dark-mode .mood-toggle i {
 }
 
 .btn:hover {
-  background-color: #575757;
+  background-color: #16d516;
   transform: translateY(-2px);
 }
 
 .btn:active {
-  background-color: #575757;
+  background-color: #807a04;
   transform: translateY(0);
 }
 
 .btn:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 3px rgba(9, 158, 73, 0.619);
 }
 
 /* Dark theme button styles */
@@ -231,7 +231,7 @@ body.dark-mode .btn:active {
 }
 
 body.dark-mode .btn:focus {
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 3px rgba(0, 255, 68, 0.25);
 }
 
 /* Social Icons */
@@ -249,7 +249,7 @@ body.dark-mode .btn:focus {
 }
 
 .social-icons a:hover {
-  color: #575757;
+  color: #34db34;
 }
 
 .content-right {
@@ -353,7 +353,7 @@ body.dark-mode .btn:focus {
   height: 100px; /* Adjust the size as needed */
   border-radius: 10%;
   object-fit: cover;
-  background-color: aliceblue;
+  background-color: rgb(148, 236, 185);
 }
 
 .image-name {
@@ -379,7 +379,7 @@ body.dark-mode .btn:focus {
 .count-item {
   flex: 1;
   padding: 20px;
-  background-color: #a871e0; /* Example background color */
+  background-color: #0ac788; /* Example background color */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
 }
@@ -490,7 +490,7 @@ body.dark-mode .btn:focus {
 .project-box a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4e0764;
+  background-color: #0ac788;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
@@ -513,7 +513,7 @@ body.dark-mode .btn:focus {
 
 #contact {
   padding: 20px;
-  background-color: #e18787; /* Example background color */
+  background-color: #188147; /* Example background color */
   justify-content: center;
 }
 
@@ -543,13 +543,13 @@ body.dark-mode .btn:focus {
 }
 
 .contact-social-icons a {
-  color: #f00606; /* Example color */
+  color: #47e54c; /* Example color */
   font-size: 1.7rem; /* Example font size */
   margin-right: 10px; /* Adjust spacing between icons */
 }
 
 .contact-social-icons a:hover {
-  color: #056b11; /* Example hover color */
+  color: #b2e63a; /* Example hover color */
 }
 
 /* Example form styles */
@@ -578,7 +578,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #007bff; /* Example button color */
+  background-color: #47e54c; /* Example button color */
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -590,7 +590,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3; /* Example hover color */
+  background-color: #00b339; /* Example hover color */
 }
 
 #status-message {
@@ -630,7 +630,7 @@ textarea {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #333;
+  background-color: #055803;
   color: #f9f7f7;
   padding: 10px 20px;
   text-align: left;
