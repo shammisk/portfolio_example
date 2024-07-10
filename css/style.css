@@ -295,7 +295,8 @@ body.dark-mode .btn:focus {
 
   .content-right {
     width: 100%;
-    margin-top: 20px; /* Adjust margin for better spacing */
+    margin-top: 20px; 
+    height:630px;
   }
 }
 
@@ -406,8 +407,8 @@ body.dark-mode .btn:focus {
   .resume-image-row {
     flex-direction: column;
     gap: 10px;
-    margin-top: 150px;
-    padding-top: 30px;
+  margin-top: 0px;
+    padding-top: 0px;
   }
 
   .resume-round-image {
@@ -472,6 +473,7 @@ body.dark-mode .btn:focus {
   width: 60px;
   height: auto;
   border-bottom: 1px solid #ddd;
+  padding: 10px;
 }
 
 .project-box h3 {
