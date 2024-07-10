@@ -294,7 +294,7 @@ body.dark-mode .btn:focus {
 
   .content-right {
     width: 100%;
-    margin-top: 20px; 
+    margin: 20px; 
     height:630px;
   }
 }
