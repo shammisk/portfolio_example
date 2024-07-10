@@ -519,7 +519,7 @@ body.dark-mode .btn:focus {
 
 #contact {
   padding: 20px;
-  background-color: #f8f3f3; /* Example background color */
+  background-color: #e18787; /* Example background color */
   justify-content: center;
 }
 
@@ -605,17 +605,7 @@ button[type="submit"]:hover {
   margin-bottom: 50px;
 }
 
-.footer {
-  position: fixed; /* Fixed positioning so it stays at the bottom left */
-  bottom: 0;
-  left: 0;
-  width: 100%; /* Full width of the viewport */
-  background-color: #333; /* Example background color */
-  color: #fff; /* Text color */
-  padding: 10px 20px; /* Padding for better readability */
-  text-align: left; /* Align text to the left */
-  font-size: 14px; /* Adjust font size as needed */
-}
+
 
 @media (max-width: 1024px) {
   .container {
@@ -639,4 +629,24 @@ input[type="email"],
 textarea {
   width:300px;
 }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 12px;
+    padding:10px;
+    text-align: center;
+  }
 }
