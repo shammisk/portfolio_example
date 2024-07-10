@@ -265,6 +265,7 @@ body.dark-mode .btn:focus {
   max-width: 50%;
  padding: 10px;
   width: 50%;
+  height: 400px;
   text-align: justify;
 }
 
@@ -276,7 +277,7 @@ body.dark-mode .btn:focus {
 
 .content-right p {
   margin: 0; /* Reset margin if necessary */
-  padding-bottom: 20px; /* Add some space below the paragraph */
+  padding-bottom: 10px; /* Add some space below the paragraph */
 }
 
 /* Media query for medium-sized devices (max-width: 1200px) */
