@@ -69,7 +69,9 @@ html {
 
 @media screen and (max-width: 768px) {
   .navbar {
-    justify-content: space-between;
+    justify-content:space-between;
+    max-width: 100%;
+    
   }
 
   .menu-toggle {
