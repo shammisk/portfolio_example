@@ -155,14 +155,14 @@ body.dark-mode .mood-toggle i {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  padding-right: 50px;
    
 }
 
 .home-content {
   display: flex;
   flex-direction: row;
- padding: 50px;
+ 
  
 }
 
@@ -171,8 +171,8 @@ body.dark-mode .mood-toggle i {
   align-items: center;
   justify-content: center;
   padding: 50px;
- margin-top: 20px;
- margin-left: 30px;
+ margin-top: 80px;
+ margin-left: 100px;
 }
 
 .home-image {
@@ -262,6 +262,8 @@ body.dark-mode .btn:focus {
   width: 50%;
   height: 400px;
   text-align: justify;
+  margin-top: 150px;
+  margin-right: 100px;
 }
 
 .content-right h1 {
