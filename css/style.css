@@ -161,12 +161,14 @@ body.dark-mode .mood-toggle i {
   align-items: center;
   justify-content: center;
   width: 100%;
+
 }
 
 .home-content {
   display: flex;
   flex-direction: row;
   width: 100%;
+
 }
 
 .content-left {
@@ -256,10 +258,10 @@ body.dark-mode .btn:focus {
 }
 
 .content-right {
-  background: rgba(255, 255, 255, 0.8); /* Optional: Add background for better readability */
-  padding: 10px; /* Adjust padding as needed */
-  border-radius: 8px; /* Optional: Add border radius for better aesthetics */
-  max-width: 50%; /* Adjust width as needed */
+  background: rgba(255, 255, 255, 0.8);
+  padding-right: 50px;
+  border-radius: 8px;
+  max-width: 50%;
   margin-top: 140px;
   width: 50%;
   text-align: justify;
