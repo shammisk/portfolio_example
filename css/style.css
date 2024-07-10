@@ -328,22 +328,23 @@ body.dark-mode .btn:focus {
 }
 
 
-<!--resume-- > .resume-section {
+<!--resume-- > 
+.resume-section {
   padding: 0px;
 }
 
 .resume-content {
   text-align: center;
-  padding-top: 60px;
+  padding: 40px;
 }
 
 .resume-image-row {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px; /* Adjust the gap as needed */
-  margin-top: 100px; /* Optional: add margin-top for spacing */
-  padding-top: 10px;
+  gap: 70px;
+  margin-top: 100px;
+ 
 }
 
 .resume-image-container {
