@@ -1,3 +1,4 @@
+//menu fix
 function toggleMenu() {
   var navLinks = document.querySelector(".nav-links");
   var menuToggle = document.querySelector(".menu-toggle");
@@ -10,6 +11,7 @@ function toggleMenu() {
   }
 }
 
+//mood fix
 function toggleMood() {
   var body = document.body;
   var moodToggleIcon = document.querySelector(".mood-toggle i");
@@ -106,43 +108,5 @@ window.addEventListener('scroll', function() {
         // Remove event listener after animation to prevent multiple triggers
         window.removeEventListener('scroll', arguments.callee);
     }
-});
-
-
-
-
-document.addEventListener("DOMContentLoaded", function () {
-  var form = document.getElementById("contact-form");
-  var statusMessage = document.getElementById("status-message");
-
-  form.addEventListener("submit", function (event) {
-    event.preventDefault();
-
-    // Fetch values from the form
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var subject = document.getElementById("subject").value;
-    var message = document.getElementById("message").value;
-
-    // Send email via EmailJS
-    emailjs
-      .send("service_yourserviceid", "template_yourtemplateid", {
-        from_name: name,
-        from_email: email,
-        subject: subject,
-        message_html: message,
-      })
-      .then(
-        function (response) {
-          console.log("SUCCESS!", response.status, response.text);
-          statusMessage.textContent = "Message sent successfully!";
-          form.reset();
-        },
-        function (error) {
-          console.log("FAILED...", error);
-          statusMessage.textContent = "Oops! Something went wrong.";
-        }
-      );
-  });
 });
 
