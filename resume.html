@@ -55,13 +55,14 @@
             padding: 20px;
             background: #fff;
             margin: 20px 0;
+           align-content: center;
         }
         .section h2 {
             text-align: center;
             margin-bottom: 20px;
         }
         .section p {
-            text-align: justify;
+            text-align: center;
         }
         .back-button {
             display: block;
@@ -73,6 +74,25 @@
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
+        }
+        .section .entry {
+            margin-bottom: 10px;
+            display: flex;
+            
+        }
+        .section .entry img {
+            width: 50px;
+            height: 50px;
+            margin-right: 30px; /* Increased margin-right for more gap */
+            border-radius: 50%;
+           
+        }
+        .section .entry h3 {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        .section .entry p {
+            margin: 0;
         }
     </style>
 </head>
@@ -92,19 +112,54 @@
     <div class="container">
         <div class="section" id="experience">
             <h2>Experience</h2>
-            <p>Details about work experience...</p>
+            <div class="entry">
+                <img src="img/logo/download (2).jpeg" alt="Experience Image">
+                <div>
+                    <h3>Junior Software Engineer</h3>
+                    <p>Maybray Pty Ltd, Australia (2024 - Present)</p>
+                </div>
+            </div>
+            <!-- Add more experience entries as needed -->
         </div>
         <div class="section" id="education">
             <h2>Education</h2>
-            <p>Details about educational background...</p>
+            <div class="entry">
+                <img src="img/logo/esoftlogo.png" alt="Education Image">
+                <div>
+                    <h3>Diploma in IT</h3>
+                    <p>Institution Name, Location (Year)</p>
+                </div>
+            </div>
+            <div class="entry">
+                <img src="img/logo/ousllogo.jpg" alt="Education Image">
+                <div>
+                    <h3>Short Course in HRM</h3>
+                    <p>Institution Name, Location (Year)</p>
+                </div>
+            </div>
+            <!-- Add more education entries as needed -->
         </div>
         <div class="section" id="badges">
             <h2>Badges</h2>
-            <p>Details about badges earned...</p>
+            <div class="entry">
+                <img src="img/logo/postman.png" alt="Badge Image">
+                <div>
+                    <h3>Badge Name</h3>
+                    <p>Issuing Organization (Year)</p>
+                </div>
+            </div>
+            <!-- Add more badge entries as needed -->
         </div>
         <div class="section" id="courses">
             <h2>Courses</h2>
-            <p>Details about completed courses...</p>
+            <div class="entry">
+                <img src="img/logo/couseralogo.png" alt="Course Image">
+                <div>
+                    <h3>Course Name</h3>
+                    <p>Platform/Institution (Year)</p>
+                </div>
+            </div>
+            <!-- Add more course entries as needed -->
         </div>
         <a href="index.html" class="back-button">Back</a>
     </div>
