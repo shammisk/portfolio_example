@@ -287,8 +287,8 @@ body.dark-mode .btn:focus {
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0px;
   }
 
