@@ -323,7 +323,7 @@ body.dark-mode .btn:focus {
 
   .content-right {
     max-width: 100%; /* Adjust width to full width of screen */
-    margin-top: 20px; /* Adjust margin for better spacing */
+    margin: 20px; /* Adjust margin for better spacing */
   }
 }
 
