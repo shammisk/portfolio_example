@@ -608,9 +608,10 @@ button[type="submit"]:hover {
 
 
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .container {
     flex-direction: column;
+    padding-right: 0px;
   }
 
   .contact-info {
