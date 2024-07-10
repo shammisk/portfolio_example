@@ -160,23 +160,24 @@ body.dark-mode .mood-toggle i {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-
+  
+   
 }
 
 .home-content {
   display: flex;
   flex-direction: row;
-  width: 100%;
-
+ padding: 50px;
+ 
 }
 
 .content-left {
   width: 50%;
   align-items: center;
   justify-content: center;
-  padding-top: 110px;
-  padding-left: 180px;
+  padding: 50px;
+ margin-top: 20px;
+ margin-left: 30px;
 }
 
 .home-image {
@@ -259,10 +260,10 @@ body.dark-mode .btn:focus {
 
 .content-right {
   background: rgba(255, 255, 255, 0.8);
-  padding-right: 50px;
+   margin-top: 80px;
   border-radius: 8px;
   max-width: 50%;
-  margin-top: 140px;
+ padding: 10px;
   width: 50%;
   text-align: justify;
 }
@@ -270,7 +271,7 @@ body.dark-mode .btn:focus {
 .content-right h1 {
   margin: 0; /* Reset margin if necessary */
   padding-bottom: 10px; /* Add some space below the heading */
-  padding-top: 10px;
+ 
 }
 
 .content-right p {
