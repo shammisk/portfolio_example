@@ -4,7 +4,7 @@
 Welcome to my portfolio website! This website showcases my projects, skills, and experiences in the field of software development.
 
 ## Website Link
-[Visit My Portfolio](https://shammisk.github.io/my_portfolio/)
+[Visit My Portfolio](https://shammisk.github.io/portfolio_example/)
 
 ## Features
 - **Projects**: View details about my projects, including descriptions, technologies used, and links to live demos or repositories.
